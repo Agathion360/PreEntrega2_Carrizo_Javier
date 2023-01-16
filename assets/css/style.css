@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* fuentes */
+
+/* Quicksand 300 400
+Montserrat 100 I 200 400
+Bitter 100 I 400 600  */
+
+/* fuentes */
+
+body{
+    background-color: #eaeadc;
+}
+
+
+
+/* Barra de Navegacion */
+
+
+.navbar-brand img{
+    width: 70px;
+    height: 90px;
+    margin-left: 30px;
+    margin-top: 5px;
+    
+} 
+
+
+
+@media screen and (max-width: 768px) {
+    .navbar-brand img {
+      display: none;
+    }
+  
+  }
+
+
+
+
+.navbar ul li{
+    list-style: none;   
+    margin-left: 20px;
+   
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    font-family: Quicksand;
+    color: #606d47;
+    font-size: 18px;
+    
+} 
+.navbar ul li a:hover{
+    color: black;
+}  
+/*Fin  Barra de Navegacion */
+.navbar-toggler{
+    border: none;
+}
+.logo_colapsado{
+    height: 70px;
+    
+}
+
+.bg-home{
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 575px){
+    .bg-home{
+        display: none;
+    }
+  
+  } 
+
+
+.presentacion h4{
+color: #155015;
+font-size: 28px;
+}
+.presentacion .subtitle{
+    font-size: 3rem;
+    font-family: Bitter;
+}
+.presentacion .card-text{
+    font-size: 15px;
+    color: gray;
+}
+.presentacion .btn{
+    background-color: #e5e5dc;
+    color: #155015;
+    border: 1px solid #155015; 
+    border-radius: 0px;
+    padding: 15px;
+}
+.presentacion .btn:hover{
+    background-color: #155015;
+    color: white;
+    border: none; 
+}
+.card-nos, .presentacion{
+    background-color: #eaeadc !important;
+}
+.card-nos .card-title{
+    color: #155015;
+    font-size: 28px;
+}
+.card-nos .subtitle{
+    font-size: 3rem;
+    font-family: Bitter;
+    color: black;
+}
+.card-nos .card-text{
+    font-size: 15px;
+    color: gray;
+}
+
+
+
+/* card */
+
+
+.card-wrap{
+    display: flex;
+}
+
+.card{
+    margin: 0 0.5em;
+    width: calc(100/5);
+    background-color: #e5e5dc;
+    border: none;
+}
+.btn-compra{
+    background-color: #e5e5dc;
+    color: #155015;
+    border: 1px solid #155015;  
+}
+.btn-compra:hover{
+    background-color: #155015;
+    color: white;
+    border: none;  
+}
+.tarjta-body{
+    background-color: #e5e5dc;
+}
+
+.carousel{
+    background-color: #e5e5dc;
+}
+
+
+.carousel-control-prev, .carousel-control-next{
+    background-color: rgba(108, 108, 110, 0.356);
+    height: 7vh;
+    width: 7vh;
+    border-radius: 50%;
+    top:50%
+}
+
+/* fin card */
+
+
+/* footer */
+
+.footer{
+  background-color: #606d47;
+  color: white;
+} 
+
+ .direccion,.redes {
+    padding: 20px;
+} 
+.redes p, .direccion p:nth-child(1){
+    font-family:Quicksand;
+    font-size: 18px;
+}
+.direccion p:nth-child(2),.direccion p:nth-child(3), .direccion p:nth-child(4){
+font-family: Montserrat;
+font-size: 15px;
+}
+.direccion p i{
+    margin-right: 10px;
+}
+.redes ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.redes ul li{
+    display: inline-block;
+}
+.redes ul li a{
+    color: white;
+    position: relative;
+    font-size: 25px;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+
+/* footer */
+.test{
+    height: 400px;
+    
+}
+@media screen and (max-width: 575px){
+    .test{
+        height: auto;
+        
+    }
+  
+  }
+.columicon{
+    background-color: #d4c9be;
+    height: 300px;
+}
+
+.columicon h4{
+    font-family:Quicksand;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.columicon p{
+    font-family:Montserrat;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.columicon i{
+    font-size: 45px;
+    border: 1px solid black;
+    padding: 25px;
+    margin: 30px;
+    
+}
+
+
+
+
+/* shop */
+.productos .card-img-top{
+    width: 70%;
+}
+.productos .card-title{
+    font-family: Bitter;
+    font-weight: bold;
+}
+
+.productos .btn-compra i{
+    margin-right: 10px;
+}
+.productos  .card-text{
+    font-family: Quicksand;
+}
+
+
+
+@media screen and (max-width: 575px){
+    .bg-quienes{
+        display: none;
+    }
+  
+  } 
+
+
+.card-quienes .card-title{
+    font-size: 3rem;
+    font-family: Bitter;
+}
+.card-quienes .card-text{
+    font-size: 15px;
+        color: gray;
+}
+
+.galery{
+    columns:4 320px ;
+    column-gap: 0.5em;
+}
+.galery img{
+    max-width: 100%;
+    margin-bottom: 0.5em;
+    display: block;
+   
+}
+
+
+
+/* 
+.presentacion h4{
+    color: #155015;
+    font-size: 28px;
+    }
+    .presentacion .subtitle{
+        font-size: 3rem;
+        font-family: Bitter;
+    }
+    .presentacion .card-text{
+        font-size: 15px;
+        color: gray;
+    } */
