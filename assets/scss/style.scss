@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+// base
+@import'./base/variables';
+@import'./base/extends';
+// componentes
+
+@import'./components/oldStyle';
+@import'./components/navbar';
+@import'./components/misc';
+@import'./components/cards';

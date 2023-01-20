@@ -1,0 +1,539 @@
+
+
+
+
+
+
+
+
+
+
+
+/* card  presentacion index*/
+.presentacion h4{
+color: #155015;
+font-size: 28px;
+}
+.presentacion .subtitle{
+    font-size: 3rem;
+    font-family: Bitter;
+}
+.presentacion .card-text{
+    font-size: 15px;
+    color: gray;
+}
+.presentacion .btn{
+    background-color: #e5e5dc;
+    color: #155015;
+    border: 1px solid #155015; 
+    border-radius: 0px;
+    padding: 15px;
+}
+.presentacion .btn:hover{
+    background-color: #155015;
+    color: white;
+    border: none; 
+}
+.card-nos, .presentacion{
+    background-color: #eaeadc !important;
+}
+.card-nos .card-title{
+    color: #155015;
+    font-size: 28px;
+}
+.card-nos .subtitle{
+    font-size: 3rem;
+    font-family: Bitter;
+    color: black;
+}
+.card-nos .card-text{
+    font-size: 15px;
+    color: gray;
+}
+/* fin card presentacion index*/
+
+
+.card-wrap{
+    display: flex;
+}
+
+.card{
+    margin: 0 0.5em;
+    width: calc(100/5);
+    background-color: #e5e5dc;
+    border: none;
+}
+.card .precio{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.card_carrusel {
+    width: 260px;
+}
+.card_carrusel .card-title, .card-text{
+    text-transform:lowercase;
+}
+
+.card_carrusel .precio{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.btn-compra{
+    background-color: #e5e5dc;
+    color: #155015;
+    border: 1px solid #155015;  
+}
+.btn-compra:hover{
+    background-color: #155015;
+    color: white;
+    border: none;  
+}
+.tarjta-body{
+    background-color: #e5e5dc;
+}
+
+.carousel{
+    background-color: #e5e5dc;
+}
+
+
+.carousel-control-prev, .carousel-control-next{
+    background-color: rgba(108, 108, 110, 0.356);
+    height: 7vh;
+    width: 7vh;
+    border-radius: 50%;
+    top:50%
+}
+
+/* fin card */
+
+
+
+.info_pedidos{
+    height: 400px;
+    
+}
+@media screen and (max-width: 575px){
+    .info_pedidos{
+        height: auto;
+        
+    }
+  
+  }
+.columicon{
+    background-color: #d4c9be;
+    height: 300px;
+}
+
+.columicon h4{
+    font-family:Quicksand;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.columicon p{
+    font-family:Montserrat;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.columicon i{
+    font-size: 45px;
+    border: 1px solid black;
+    padding: 25px;
+    margin: 30px;
+    
+}
+
+
+
+
+/* shop */
+.productos .card-img-top{
+    width: 70%;
+}
+.productos .card-title{
+    font-family: Bitter;
+    font-weight: bold;
+}
+
+.productos .btn-compra i{
+    margin-right: 10px;
+}
+.productos  .card-text{
+    font-family: Quicksand;
+}
+
+
+/* pagina quienes somos */
+@media screen and (max-width: 575px){
+    .bg-quienes{
+        display: none;
+    }
+  
+  } 
+
+
+.card-quienes{
+background-color: #eaeadc;
+margin-bottom: 80px;
+  }
+.card-quienes .card-title{
+    font-size: 3rem;
+    font-family: Bitter;
+}
+.card-quienes .card-text{
+    font-size: 15px;
+        color: gray;
+}
+
+.galery{
+    columns:4 320px ;
+    column-gap: 0.5em;
+}
+.galery img{
+    max-width: 100%;
+    margin-bottom: 0.5em;
+    display: block;
+   
+}
+
+/* fin pagina quienes somos */
+
+
+/* pagina carrito */
+.listado{
+    position: relative;
+    margin-left: 30px;
+    margin-top: 30px;
+    
+}
+.listado div{
+    background-color:rgba(255, 255, 255, 0.2);
+    display: inline-block;
+    width: 300px;
+    height: 480px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+}
+.listado div a{
+    text-decoration: none;
+    color: white;
+    margin-left: 80px;
+    background-color: rgb(21, 80, 21);
+    padding: 12px;
+    border-radius: 20px;
+    font-family: Quicksand;
+}
+
+.listado div h3{
+font-family: Bitter;
+margin-left: 20px;
+}
+
+.listado div p{
+    margin-bottom: 30px;
+    font-family: Montserrat;
+    margin-left: 20px;
+}
+
+
+
+section .barraSup{
+    background-color: #92948F;
+    margin-top: 80px;
+    width: 1100px;
+    margin-left: 110px;
+    height: 40px;
+}
+
+section .barraSup ul{
+list-style: none;
+position: relative;
+
+}
+section .barraSup ul li{
+color: #f8f9fa;
+display: inline-block;
+margin-top: 12px;
+font-size: 15px;
+font-family:Quicksand ;
+}
+section .barraSup ul li:nth-child(1){
+    
+    margin-left:30px
+}
+section .barraSup ul li:nth-child(2){
+margin-left: 230px;
+}
+section .barraSup ul li:nth-child(3){
+    margin-left: 140px;
+    }
+section .barraSup ul li:nth-child(4){
+    margin-left: 100px;
+ }
+ section .barraSup ul li:nth-child(5){
+    margin-left: 90px;
+ }
+
+
+.elementosCarro{
+    margin-bottom: 70px;
+ }
+ .elementosCarro div{
+    position: relative;
+    background-color:rgba(255, 255, 255, 0.205);
+    display: inline-block;
+    margin-left: 110px;
+    width: 1100px;
+    padding-bottom: 20px;
+    height: 122px;
+    
+
+ }
+ .elementosCarro div img{
+    height: 120px;
+ }
+ .elementosCarro div p{
+    position: relative;
+    display: inline-block;
+    font-family:Montserrat;
+    
+    
+ }
+
+ .elementosCarro div p:nth-child(2){
+    color: black;
+    margin-left: 170px;
+    width: 170px;
+   
+ }
+
+ .elementosCarro div p:nth-child(3){
+    margin-left: 120px;
+    font-size: 30px;
+ }
+
+ .elementosCarro div p:nth-child(4){
+    margin-left: 120px;
+    font-size: 30px;
+ }
+ .elementosCarro div p:nth-child(5){
+    margin-left: 90px;
+    font-size: 30px;
+ }
+
+ .elementosCarro div a{
+    margin-left: 90px;
+    font-size: 25px;
+    color: #606d47;
+ }
+
+ .total div{
+    position: relative;
+    width: 200px;
+    margin-left: 870px;
+ }
+
+ .total div p{
+    font-family: Quicksand;
+    font-weight: 400;
+    font-size: 30px;
+ }
+ .total div p span{
+    font-weight: 600;
+ }
+ .total div a{
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    font-family:Quicksand;
+    font-size: 20px;
+    border:solid 1px #606d47;
+    color: #606d47;
+    background-color: #eaeadc;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 20px;
+ }
+
+ .total div a:hover{
+    border:none;
+    color: #eaeadc ;
+    background-color: #606d47;
+ }
+
+/* fin pagina carrito */
+
+
+/*pagina Inicio sesion */
+.datosUser{
+    background-color: rgba(255, 255, 255, 0.205);
+    width: 1200px;
+    position: relative;
+    height: 380px;
+    margin: 80px 0 120px 90px;
+ }
+ .datosUser h2{
+font-family: Bitter;
+font-size: 30px;
+position: relative;
+display: inline-block;
+margin: 30px 0 20px 500px;
+
+
+ }
+
+ .datosUser div p{
+    position: relative;
+    display: inline-block;
+    margin-left: 350px;
+    font-size: 25px;
+    font-family: Quicksand;
+    margin-bottom: 50px;
+ }
+ .datosUser div .campouno{
+    width: 300px;
+    height: 30px;
+    background-color: white;
+    font-size: 15px;
+    color: #BDBFC1;
+    position: relative;
+    display: inline-block;
+    margin-left: 65px;
+ }
+
+ .datosUser div .campo{
+    width: 300px;
+    height: 30px;
+    background-color: white;
+    font-size: 15px;
+    color: #BDBFC1;
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+ }
+ .datosUser .inicioBoton{
+    position: relative;
+    display: inline-block;
+    background-color: #606d47;
+    color: white;
+    text-decoration: none;
+    font-family:Montserrat ;
+    font-size: 20px;
+    margin-left: 510px;
+    padding: 15px 80px 15px 80px;
+ }
+ .datosUser .altaUser{
+    position: relative;
+    display: inline-block;
+    color: #606d47;
+    text-decoration: none;
+    font-family:Montserrat ;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 580px;
+ }
+/* Fin pagina Inicio sesion */
+
+ 
+
+
+ /* pagina Alta Usuarios */
+ .nuevoUser{
+    background-color: rgba(255, 255, 255, 0.205);
+    width: 1200px;
+    position: relative;
+    height: 450px;
+    margin: 80px 0 30px 90px;
+
+ }
+
+ .nuevoUser div{
+    position: relative;
+    display: inline-block;
+    width: 600px;
+    height: 300px;
+    margin-left: 300px;
+ }
+ .nuevoUser h2{
+    font-family: Bitter;
+    font-size: 30px;
+    margin: 30px 0 20px 600px;
+
+ }
+
+ .nuevoUser div p{
+    font-size: 15px;
+    font-family: Quicksand;
+    position: relative;
+    display: inline-block;
+  }
+
+  .nuevoUser div .campo{
+    background-color: #e5e5dc;
+    width:350px ;
+    margin-left: 200px;
+    padding: 10px;
+    position: relative;
+    top:-20px; left: 40px;
+  }
+  .nuevoUser .inicioBoton{
+    position: relative;
+    display: inline-block;
+    background-color: #606d47;
+    color: white;
+    text-decoration: none;
+    font-family:Montserrat ;
+    font-size: 20px;
+    margin-left: 510px;
+    padding: 15px 80px 15px 80px;
+ }
+  
+  
+ /*FIN pagina Alta Usuarios */
+
+
+
+    /* footer */
+
+.footer{
+    background-color: #606d47;
+    color: white;
+  } 
+  
+   .direccion,.redes {
+      padding: 20px;
+  } 
+  .redes p, .direccion p:nth-child(1){
+      font-family:Quicksand;
+      font-size: 18px;
+  }
+  .direccion p:nth-child(2),.direccion p:nth-child(3), .direccion p:nth-child(4){
+  font-family: Montserrat;
+  font-size: 15px;
+  }
+  .direccion p i{
+      margin-right: 10px;
+  }
+  .redes ul{
+      list-style: none;
+      padding-left: 0;
+  }
+  
+  .redes ul li{
+      display: inline-block;
+  }
+  .redes ul li a{
+      color: white;
+      position: relative;
+      font-size: 25px;
+      text-decoration: none;
+      margin-right: 30px;
+  }
+  
+  
+  /* footer */

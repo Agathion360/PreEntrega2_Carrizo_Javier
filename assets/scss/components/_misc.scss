@@ -1,0 +1,16 @@
+// archivo de componentes misc. sueltos
+body{
+    background-color: $bgc1;
+}
+
+// imagen de inicio
+
+.bg-home{
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 575px){
+    .bg-home{
+        display: none;
+    }
+  
+  } 
