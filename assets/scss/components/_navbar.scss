@@ -1,6 +1,7 @@
 // logo navbar
 
 .navbar{
+   
     .navbar-brand {
         img{
             @extend %logo_navbar;
@@ -15,7 +16,7 @@
                 text-decoration: none;
                 font-family: $font1;
                 color: $verde1;
-                font-size: 18px;
+                font-size: 20px;
             }
             &:hover{
                 color: black;

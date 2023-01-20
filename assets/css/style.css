@@ -10,107 +10,26 @@
   margin-top: 5px;
 }
 
-/* card  presentacion index*/
-.presentacion h4 {
+.card2 .card-title, .card1 .presentacion h4 {
   color: #155015;
   font-size: 28px;
 }
 
-.presentacion .subtitle {
+.card2 .subtitle, .card1 .presentacion .subtitle {
   font-size: 3rem;
   font-family: Bitter;
 }
 
-.presentacion .card-text {
+.card2 .card-text, .card1 .presentacion .card-text {
   font-size: 15px;
   color: gray;
 }
 
-.presentacion .btn {
-  background-color: #e5e5dc;
-  color: #155015;
-  border: 1px solid #155015;
-  border-radius: 0px;
-  padding: 15px;
-}
-
-.presentacion .btn:hover {
-  background-color: #155015;
-  color: white;
-  border: none;
-}
-
-.card-nos, .presentacion {
-  background-color: #eaeadc !important;
-}
-
-.card-nos .card-title {
-  color: #155015;
-  font-size: 28px;
-}
-
-.card-nos .subtitle {
-  font-size: 3rem;
-  font-family: Bitter;
-  color: black;
-}
-
-.card-nos .card-text {
-  font-size: 15px;
-  color: gray;
-}
-
-/* fin card presentacion index*/
-.card-wrap {
-  display: flex;
-}
-
-.card {
-  margin: 0 0.5em;
-  width: 20;
-  background-color: #e5e5dc;
-  border: none;
-}
-
-.card .precio {
-  font-weight: bold;
-  font-size: 18px;
-}
-
-.card_carrusel {
-  width: 260px;
-}
-
-.card_carrusel .card-title, .card-text {
+#carouselExampleSmall .card .card-text, #carouselExampleSmall .card .card-title, #carouselExample .card-wrap .card .card-text, #carouselExample .card-wrap .card .card-title {
   text-transform: lowercase;
 }
 
-.card_carrusel .precio {
-  font-weight: bold;
-  font-size: 18px;
-}
-
-.btn-compra {
-  background-color: #e5e5dc;
-  color: #155015;
-  border: 1px solid #155015;
-}
-
-.btn-compra:hover {
-  background-color: #155015;
-  color: white;
-  border: none;
-}
-
-.tarjta-body {
-  background-color: #e5e5dc;
-}
-
-.carousel {
-  background-color: #e5e5dc;
-}
-
-.carousel-control-prev, .carousel-control-next {
+#carouselExampleSmall .carousel-control-prev, #carouselExampleSmall .carousel-control-next, #carouselExample .carousel-control-prev, #carouselExample .carousel-control-next {
   background-color: rgba(108, 108, 110, 0.356);
   height: 7vh;
   width: 7vh;
@@ -118,58 +37,7 @@
   top: 50%;
 }
 
-/* fin card */
-.info_pedidos {
-  height: 400px;
-}
-
-@media screen and (max-width: 575px) {
-  .info_pedidos {
-    height: auto;
-  }
-}
-.columicon {
-  background-color: #d4c9be;
-  height: 300px;
-}
-
-.columicon h4 {
-  font-family: Quicksand;
-  font-weight: 400;
-  font-size: 18px;
-}
-
-.columicon p {
-  font-family: Montserrat;
-  font-weight: 400;
-  font-size: 15px;
-}
-
-.columicon i {
-  font-size: 45px;
-  border: 1px solid black;
-  padding: 25px;
-  margin: 30px;
-}
-
 /* shop */
-.productos .card-img-top {
-  width: 70%;
-}
-
-.productos .card-title {
-  font-family: Bitter;
-  font-weight: bold;
-}
-
-.productos .btn-compra i {
-  margin-right: 10px;
-}
-
-.productos .card-text {
-  font-family: Quicksand;
-}
-
 /* pagina quienes somos */
 @media screen and (max-width: 575px) {
   .bg-quienes {
@@ -544,7 +412,7 @@ section .barraSup ul li:nth-child(5) {
   text-decoration: none;
   font-family: Quicksand;
   color: #606d47;
-  font-size: 18px;
+  font-size: 20px;
 }
 .navbar ul li:hover {
   color: black;
@@ -573,6 +441,168 @@ body {
   .bg-home {
     display: none;
   }
+}
+.info_pedidos {
+  background-color: #998a45;
+}
+.info_pedidos .columicon {
+  background-color: #998a45;
+  height: 410px;
+}
+.info_pedidos .columicon i {
+  font-size: 45px;
+  border: 1px solid #fffae8;
+  padding: 25px;
+  margin: 90px 0 30px 0;
+  color: #fffae8;
+}
+.info_pedidos .columicon h4 {
+  font-family: Quicksand;
+  font-weight: 400;
+  font-size: 18px;
+  color: #fffae8;
+}
+.info_pedidos .columicon p {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 15px;
+  color: #fffae8;
+}
+
+@media screen and (max-width: 575px) {
+  .info_pedidos {
+    height: auto;
+  }
+}
+.card1 {
+  border: none;
+}
+.card1 .presentacion {
+  background-color: #eaeadc !important;
+}
+.card1 .presentacion .btn {
+  background-color: #e5e5dc;
+  color: #155015;
+  border: 1px solid #155015;
+  border-radius: 0px;
+  padding: 15px;
+}
+.card1 .presentacion .btn:hover {
+  background-color: #155015;
+  color: white;
+  border: none;
+}
+
+.card2 {
+  background-color: #eaeadc !important;
+  border: none;
+}
+.productos {
+  border-radius: none;
+}
+.productos .row {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+.productos .row .card {
+  background-color: #e5e5dc;
+  border: none;
+  border-radius: 0 !important;
+  height: 550px;
+  margin-bottom: 20px;
+}
+.productos .row .card-img-top {
+  width: 70%;
+}
+.productos .row .card-title {
+  font-family: Bitter;
+  font-weight: bold;
+}
+.productos .row .precio {
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  color: #155015;
+}
+.productos .row .btn-compra {
+  background-color: #e5e5dc;
+  color: #155015;
+  border: 1px solid #155015;
+  border-radius: 0;
+}
+.productos .row .btn-compra:hover {
+  background-color: #155015;
+  color: white;
+}
+
+@media screen and (max-width: 575px) {
+  .productos .row {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .productos .row .card {
+    height: 600px;
+  }
+  .productos .row .btn-compra {
+    margin-bottom: 40px;
+    border-radius: 0;
+  }
+}
+#carouselExample {
+  background-color: #e5e5dc;
+}
+#carouselExample .card-wrap {
+  display: flex;
+}
+#carouselExample .card-wrap .tarjta-body {
+  background-color: #e5e5dc;
+}
+#carouselExample .card-wrap .card {
+  margin: 0 0.5em;
+  width: 20;
+  background-color: #e5e5dc;
+  border: none;
+  width: 260px;
+}
+#carouselExample .card-wrap .card .precio {
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  color: #155015;
+}
+#carouselExample .card-wrap .card .btn-compra {
+  background-color: #e5e5dc;
+  color: #155015;
+  border: 1px solid #155015;
+  border-radius: 0;
+}
+#carouselExample .card-wrap .card .btn-compra:hover {
+  background-color: #155015;
+  color: white;
+}
+#carouselExampleSmall .tarjta-body {
+  background-color: #e5e5dc;
+}
+#carouselExampleSmall .card {
+  background-color: #e5e5dc;
+  border: none;
+  align-items: center;
+}
+#carouselExampleSmall .card .precio {
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  color: #155015;
+}
+#carouselExampleSmall .card .btn-compra {
+  background-color: #e5e5dc;
+  color: #155015;
+  border: 1px solid #155015;
+  border-radius: 0;
+}
+#carouselExampleSmall .card .btn-compra:hover {
+  background-color: #155015;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */

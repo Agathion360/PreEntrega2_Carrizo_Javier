@@ -14,3 +14,47 @@ body{
     }
   
   } 
+
+
+// seccion informacion pedidos etc
+  .info_pedidos{
+    
+    background-color: #998a45;
+
+    .columicon{
+        background-color: #998a45;
+        height: 410px;
+
+        i{
+            font-size: 45px;
+            border: 1px solid $bgc6;
+            padding: 25px;
+            margin: 90px 0 30px 0;
+            color: $bgc6;
+        }
+
+        h4{
+            font-family:$font1;
+            font-weight: 400;
+            font-size: 18px;
+            color: $bgc6;
+        }
+        p{
+            font-family:$font2;
+            font-weight: 400;
+            font-size: 15px;
+            color: $bgc6;
+        }
+    }
+    
+  }
+
+
+  @media screen and (max-width: 575px){
+    .info_pedidos{
+        height: auto;
+        
+    }
+  
+  }
+  // seccion informacion pedidos etc
