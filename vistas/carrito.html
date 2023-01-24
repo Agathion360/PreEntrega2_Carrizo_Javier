@@ -65,54 +65,99 @@
     </div>
   </nav>
 
+  <!-- Tabla productos carrito -->
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+      <div class="col col-xl-10 ">
 
-  <section>
-    <div class="barraSup">
-      <ul>
-        <li>Producto</li>
-        <li>Descripcion</li>
-        <li>Cantidad</li>
-        <li>Precio</li>
-        <li>Subtotal</li>
-      </ul>
-    </div>
-  </section>
+        <table class="table carrito" >
+          <thead >
+            <tr class="cabecera" >
+              <th scope="col">Producto</th>
+              <th scope="col">Descripcion</th>
+              <th scope="col">Cantidad</th>
+              <th scope="col">Precio</th>
+              <th scope="col">Subtotal</th>
+              <th scope="col">Eliminar</th>
+            </tr>
+          </thead>
+          <tbody >
+            <tr class="align-middle">
+              <th scope="row">
+                <img src="../img/bt1.png" alt="" class="producto">
+              </th >
+              <td >
+                <p>Aceite extra virgen primera prensada, 1L</p>
+              </td>
+              <td>
+                <p >1</p>
+              </td>
+              <td>
+                <p >945</p>
+              </td>
+              <td>
+                <p>945</p>
+              </td>
+              <td>
+                <a href="#"><i class="fa-regular fa-trash-can"></i></a>
+              </td>
 
-  <section class="elementosCarro">
-    <div>
-      <img src="../img/bt1.png" alt="">
-      <p>Aceite extra virgen primera prensada, 1L</p>
-      <p>1</p>
-      <p>945</p>
-      <p>945</p>
-      <a href="#"><i class="fa-regular fa-trash-can"></i></a>
-    </div>
-    <div>
-      <img src="../img/ta1.png" alt="">
-      <p>Aceitunas verdes, Frasco x 500gr</p>
-      <p>1</p>
-      <p>863</p>
-      <p>863</p>
-      <a href="#"><i class="fa-regular fa-trash-can"></i></a>
-    </div>
-    <div>
-      <img src="../img/ps1.png" alt="">
-      <p>Pasta de Aceitunas verdes x 190gr</p>
-      <p>1</p>
-      <p>740</p>
-      <p>740</p>
-      <a href="#"><i class="fa-regular fa-trash-can"></i></a>
+            </tr>
+            <tr class="align-middle">
+              <th scope="row">
+                <img src="../img/ta1.png" alt="" class="producto">
+              </th>
+              <td>
+                <p>Aceitunas verdes, Frasco x 500gr</p>
+              </td>
+              <td>
+                <p >1</p>
+              </td>
+              <td>
+                <p >863</p>
+              </td>
+              <td>
+                <p>863</p>
+              </td>
+              <td>
+                <a href="#"><i class="fa-regular fa-trash-can"></i></a>
+              </td>
+            </tr>
 
+            <tr class="align-middle">
+              <th scope="row">
+                <img src="../img/ps1.png" alt="" class="producto">
+              </th> 
+              <td>
+                <p>Pasta de Aceitunas verdes x 190gr</p>
+              </td>
+              <td>
+                <p class="cantidad">1</p>
+              </td>
+              <td>
+                <p class="precio">740</p>
+              </td>
+              <td>
+                <p>740</p>
+              </td>
+              <td>
+                <a href="#"><i class="fa-regular fa-trash-can"></i></a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
-  </section>
-  <div class="total">
-    <div>
-      <p>Total: <span>$2.548</span></p>
-      <a href="./iniciarSesion.html">Iniciar Compra</a>
+
+    <div class="row justify-content-end total_compra">
+      <div class="col col-xl-4 ">
+        <p>Total: <span>$2.548</span></p>
+        <a href="./iniciarSesion.html">Iniciar Compra</a>
+      </div>
     </div>
   </div>
-
-
+    
+ 
 
   <!-- footer  -->
   <div class="container-fluid footer">

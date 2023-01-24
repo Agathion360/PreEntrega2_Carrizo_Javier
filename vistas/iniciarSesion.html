@@ -65,18 +65,50 @@
     </div>
   </nav>
 
-  <section class="datosUser">
-    <h2>Iniciar Sesion</h2>
-    <div>
-      <p>Usuario</p>
-      <p class="campouno">nombre@correo.com </p>
-      <p>Contraseña</p>
-      <p class="campo">************ </p>
 
+  <div class="container-fluid inicio-sesion text-center">
+    <div class="row justify-content-center">
+      <div class="col col-xl-10 fondo-form">
+
+        <form>
+          <div class="row justify-content-center user">
+            <p>Iniciar Sesion</p>
+            <div class="col col-xl-2">
+              <label class="col-form-label label">Usuario:</label>
+            </div>
+
+            <div class="col col-xl-4">
+              <input type="text" class="form-control">
+            </div>
+          </div>
+
+          <div class="row justify-content-center password">
+            <div class="col col-xl-2">
+              <label class="col-form-label label">Contraseña:</label>
+            </div>
+            <div class="col col-xl-4">
+              <input type="password" class="form-control">
+            </div>
+          </div>
+
+          <div class="row justify-content-center">
+            <div class="col col-auto ">
+              <button type="submit" class="btn iniciar">Iniciar Sesion</button>
+            </div>
+          </div>
+
+          <div class="row justify-content-center">
+            <div class="col col-auto ">
+              <a href="./nuevaCuenta.html" class="nuevouser">Crear Cuenta</a>
+            </div>
+          </div>
+
+        </form>
+
+
+      </div>
     </div>
-    <a href="#" class="inicioBoton">Iniciar Sesion</a>
-    <a href="./nuevaCuenta.html" class="altaUser">Crear Cuenta</a>
-  </section>
+  </div>
 
 
 

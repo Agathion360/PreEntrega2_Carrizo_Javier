@@ -6,6 +6,7 @@
 // base
 @import'./base/variables';
 @import'./base/extends';
+@import'./base/mixing';
 // componentes
 
 @import'./components/oldStyle';
@@ -13,3 +14,5 @@
 @import'./components/misc';
 @import'./components/cards';
 @import'./components/carusel';
+@import'./components/carrito';
+@import'./components/footer';

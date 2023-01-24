@@ -18,14 +18,27 @@
             .card-title{
                 @extend %tarjetas-lower;
             }
+            .card-title::selection{
+                @extend %txt-seleccion;
+            }
+
+
             .card-text{
                 @extend %tarjetas-lower;
             }
+            .card-text::selection{
+                @extend %txt-seleccion;
+            }
+
+
             .precio{
                 font-weight: bold;
                 font-size: 24px;
                 text-align: center;
                 color: $verde2;
+            }
+            .precio::selection{
+                @extend %txt-seleccion;
             }
            
             .btn-compra{
@@ -66,15 +79,29 @@
             .card-title{
                 @extend %tarjetas-lower;
             }
+            .card-title::selection{
+                @extend %txt-seleccion;
+            }
+
+
             .card-text{
                 @extend %tarjetas-lower;
             }
+            .card-text::selection{
+                @extend %txt-seleccion;
+            }
+
+
             .precio{
                 font-weight: bold;
                 font-size: 24px;
                 text-align: center;
                 color: $verde2;
             }
+            .precio::selection{
+                @extend %txt-seleccion;
+            }
+            
         
         .btn-compra{
             background-color: $bgc2;

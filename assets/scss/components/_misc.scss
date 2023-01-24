@@ -1,60 +1,196 @@
 // archivo de componentes misc. sueltos
-body{
-    background-color: $bgc1;
+body {
+  background-color: $bgc1;
 }
 
 // imagen de inicio
 
-.bg-home{
-    margin-bottom: 20px;
+.bg-home {
+  margin-bottom: 20px;
 }
-@media screen and (max-width: 575px){
-    .bg-home{
-        display: none;
-    }
-  
-  } 
+
+@media screen and (max-width: 575px) {
+  .bg-home {
+    display: none;
+  }
+
+}
 
 
 // seccion informacion pedidos etc
-  .info_pedidos{
-    
+.info_pedidos {
+
+  background-color: #998a45;
+
+  .columicon {
     background-color: #998a45;
+    height: 410px;
 
-    .columicon{
-        background-color: #998a45;
-        height: 410px;
-
-        i{
-            font-size: 45px;
-            border: 1px solid $bgc6;
-            padding: 25px;
-            margin: 90px 0 30px 0;
-            color: $bgc6;
-        }
-
-        h4{
-            font-family:$font1;
-            font-weight: 400;
-            font-size: 18px;
-            color: $bgc6;
-        }
-        p{
-            font-family:$font2;
-            font-weight: 400;
-            font-size: 15px;
-            color: $bgc6;
-        }
+    i {
+      font-size: 45px;
+      border: 1px solid $bgc7;
+      padding: 25px;
+      margin: 90px 0 30px 0;
+      color: $bgc7;
     }
+
+    h4 {
+      font-family: $font1;
+      font-weight: 400;
+      font-size: 18px;
+      color: $bgc7;
+    }
+
+    p {
+      font-family: $font2;
+      font-weight: 400;
+      font-size: 15px;
+      color: $bgc7;
+    }
+  }
+
+}
+
+
+@media screen and (max-width: 575px) {
+  .info_pedidos {
+    height: auto;
+
+  }
+
+}
+
+// seccion informacion pedidos etc
+
+//   Imagen somos
+@media screen and (max-width: 575px) {
+  .bg-quienes {
+    display: none;
+  }
+
+}
+
+// Fin  Imagen somos
+
+// gaaleria de imagenes quienes somos
+
+.galery {
+  columns: 4 320px;
+  column-gap: 0.5em;
+
+  img {
+    max-width: 100%;
+    margin-bottom: 0.5em;
+    display: block;
+
+  }
+}
+
+//fin gaaleria de imagenes quienes somos
+
+// formulario inicio de sesion
+.inicio-sesion {
+  .fondo-form {
+    @include bg-sesion(500px);
+
+    form {
+      margin-top: 40px;
+      
+      p{
+       @extend %txt-sesiones
+       }
+
+      .label {
+        font-family: $font1;
+        font-size: 25px;
+        margin-bottom: 50px;
+      }
+
+      input {
+        border-radius: 0;
+      }
+
+      .iniciar {
+         
+        @include btn-sesion();
+
+        &:hover {
+          @extend %btn-hover;
+        }
+      }
+    }
+
+    .nuevouser {
+      @include btn-575(25px)
+    }
+  }
+
+
+}
+
+@media screen and (max-width: 575px) {
+  .iniciar {
     
-  }
+   @include btn-sesion;
 
-
-  @media screen and (max-width: 575px){
-    .info_pedidos{
-        height: auto;
-        
+    &:hover {
+      border: $verde1 solid 1px;
+      background-color: #eeeee3;
+      color: $verde1;
     }
-  
   }
-  // seccion informacion pedidos etc
+
+  .nuevouser {
+     @include btn-575(10px) //ver
+  }
+
+}
+
+// Formulario alta usuario nuevo
+.alta-user {
+  .fondo-form {
+    @include bg-sesion(630px);
+
+    form {
+      margin-top: 50px;
+        
+      p{
+        @extend %txt-sesiones
+        }
+      .new-user {
+
+        label {
+          font-family: $font1;
+          font-size: 18px;
+          margin-bottom: 30px;
+        }
+
+        input {
+          border-radius: 0;
+        }
+      }
+
+      .alta {
+
+       @include btn-sesion;
+
+        &:hover {
+          @extend %btn-hover;
+        }
+      }
+
+      .new-user-contra {
+        label {
+          font-family: $font1;
+          font-size: 15px;
+          margin-bottom: 30px;
+        }
+
+        input {
+          border-radius: 0;
+        }
+      }
+    }
+
+  }
+}

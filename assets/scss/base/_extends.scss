@@ -31,3 +31,27 @@
     border-radius: 50%;
     top:50%
 }
+
+%txt-sesiones{
+    
+        font-family: $font2;
+        font-size: 24px;
+        font-weight: bolder;
+        color: $verde2;
+      
+}
+%btn-hover{
+    border: $verde1 solid 1px;
+    background-color: #eeeee3;
+    color: $verde1;
+}
+
+%p-footer{
+    font-family:$font1;
+    font-size: 18px;
+}
+
+%txt-seleccion{
+    background-color: $verde1;
+            color: white;
+}
