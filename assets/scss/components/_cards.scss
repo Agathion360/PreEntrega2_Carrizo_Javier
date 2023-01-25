@@ -1,5 +1,8 @@
 .card1{
     border: none; 
+    img{
+        width: 100%;
+    }
     .presentacion{
         background-color: #eaeadc !important;
         h4{
@@ -41,6 +44,10 @@
 .card2{
     background-color: #eaeadc !important;
     border: none; 
+    img{
+        width: 100%;
+    }
+    
     .card-title{
         @extend %titulos-cards;
     }

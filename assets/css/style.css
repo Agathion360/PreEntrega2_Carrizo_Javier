@@ -236,6 +236,9 @@ body {
 .card1 {
   border: none;
 }
+.card1 img {
+  width: 100%;
+}
 .card1 .presentacion {
   background-color: #eaeadc !important;
 }
@@ -255,6 +258,9 @@ body {
 .card2 {
   background-color: #eaeadc !important;
   border: none;
+}
+.card2 img {
+  width: 100%;
 }
 .productos {
   border-radius: none;
