@@ -22,7 +22,7 @@
 
 .card-quienes .card-text, .card2 .card-text, .card1 .presentacion .card-text {
   font-size: 15px;
-  color: gray;
+  color: rgb(97, 97, 97);
 }
 
 #carouselExampleSmall .card .card-text, #carouselExampleSmall .card .card-title, #carouselExample .card-wrap .card .card-text, #carouselExample .card-wrap .card .card-title {
