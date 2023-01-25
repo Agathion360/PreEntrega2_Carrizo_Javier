@@ -55,7 +55,9 @@
   font-size: 18px;
 }
 
-#carouselExampleSmall .card .precio::selection, #carouselExampleSmall .card .card-text::selection, #carouselExampleSmall .card .card-title::selection, #carouselExample .card-wrap .card .precio::selection, #carouselExample .card-wrap .card .card-text::selection, #carouselExample .card-wrap .card .card-title::selection, .card-quienes .card-text::selection, .card-quienes .card-title::selection, .productos .row .precio::selection, .productos .row .card-text::selection, .productos .row .card-title::selection, .card2 .card-text::selection, .card2 .subtitle::selection, .card2 .card-title::selection, .card1 .presentacion .card-text::selection, .card1 .presentacion .subtitle::selection, .card1 .presentacion h4::selection {
+.total_compra p::selection, .total_compra p span::selection, .carrito tbody td:nth-child(3) p::selection,
+.carrito tbody td:nth-child(4) p::selection,
+.carrito tbody td:nth-child(5) p::selection, .carrito tbody td p::selection, #carouselExampleSmall .card .precio::selection, #carouselExampleSmall .card .card-text::selection, #carouselExampleSmall .card .card-title::selection, #carouselExample .card-wrap .card .precio::selection, #carouselExample .card-wrap .card .card-text::selection, #carouselExample .card-wrap .card .card-title::selection, .card-quienes .card-text::selection, .card-quienes .card-title::selection, .productos .row .precio::selection, .productos .row .card-text::selection, .productos .row .card-title::selection, .card2 .card-text::selection, .card2 .subtitle::selection, .card2 .card-title::selection, .card1 .presentacion .card-text::selection, .card1 .presentacion .subtitle::selection, .card1 .presentacion h4::selection {
   background-color: #606d47;
   color: white;
 }
@@ -382,12 +384,8 @@ body {
 .carrito tbody td p {
   font-family: Montserrat;
 }
-.carrito tbody td:nth-child(3) p {
-  font-size: 30px;
-}
-.carrito tbody td:nth-child(4) p {
-  font-size: 30px;
-}
+.carrito tbody td:nth-child(3) p,
+.carrito tbody td:nth-child(4) p,
 .carrito tbody td:nth-child(5) p {
   font-size: 30px;
 }
@@ -396,7 +394,7 @@ body {
   color: black;
 }
 .carrito tbody td:nth-child(6) a:hover {
-  color: #fffae8;
+  color: #d1082d;
 }
 
 .total_compra p {
