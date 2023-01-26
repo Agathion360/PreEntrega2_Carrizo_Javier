@@ -94,6 +94,9 @@ body {
 .bg-home {
   margin-bottom: 20px;
 }
+.bg-home img {
+  width: 100%;
+}
 
 @media screen and (max-width: 575px) {
   .bg-home {
@@ -101,10 +104,10 @@ body {
   }
 }
 .info_pedidos {
-  background-color: #998a45;
+  background-color: #6b5f29;
 }
 .info_pedidos .columicon {
-  background-color: #998a45;
+  background-color: #6b5f29;
   height: 410px;
 }
 .info_pedidos .columicon i {
