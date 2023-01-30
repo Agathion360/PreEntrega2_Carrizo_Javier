@@ -6,13 +6,50 @@ body {
 // imagen de inicio
 
 .bg-home {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+ 
     img{
       width: 100%;
     }
+  .textos {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    
+    .tit {
+      font-family: $font3;
+      font-size: 40px;
+      color: $bgc1;
+      text-transform: uppercase;
+      text-shadow: -2px 2px black;
+      
+    }
+    
+
+    .subtitulo {
+      font-family: $font1;
+      color: $bgc1;
+      font-size: 20px;
+      margin-top: 20px;
+      text-shadow: -2px 2px black;
+    }
+   
+  }
+
+ 
+
+
 }
 
 @media screen and (max-width: 575px) {
+  .bg-home {
+    display: none;
+  }
+
+}
+
+
+@media screen and (max-width: 820px) {
   .bg-home {
     display: none;
   }
@@ -98,10 +135,10 @@ body {
 
     form {
       margin-top: 40px;
-      
-      p{
-       @extend %txt-sesiones
-       }
+
+      p {
+        @extend %txt-sesiones
+      }
 
       .label {
         font-family: $font1;
@@ -114,7 +151,7 @@ body {
       }
 
       .iniciar {
-         
+
         @include btn-sesion();
 
         &:hover {
@@ -133,8 +170,8 @@ body {
 
 @media screen and (max-width: 575px) {
   .iniciar {
-    
-   @include btn-sesion;
+
+    @include btn-sesion;
 
     &:hover {
       border: $verde1 solid 1px;
@@ -144,7 +181,7 @@ body {
   }
 
   .nuevouser {
-     @include btn-575(10px) //ver
+    @include btn-575(10px) //ver
   }
 
 }
@@ -156,10 +193,11 @@ body {
 
     form {
       margin-top: 50px;
-        
-      p{
+
+      p {
         @extend %txt-sesiones
-        }
+      }
+
       .new-user {
 
         label {
@@ -175,7 +213,7 @@ body {
 
       .alta {
 
-       @include btn-sesion;
+        @include btn-sesion;
 
         &:hover {
           @extend %btn-hover;

@@ -92,13 +92,37 @@ body {
 }
 
 .bg-home {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 .bg-home img {
   width: 100%;
 }
+.bg-home .textos {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+}
+.bg-home .textos .tit {
+  font-family: Bitter;
+  font-size: 40px;
+  color: #eaeadc;
+  text-transform: uppercase;
+  text-shadow: -2px 2px black;
+}
+.bg-home .textos .subtitulo {
+  font-family: Quicksand;
+  color: #eaeadc;
+  font-size: 20px;
+  margin-top: 20px;
+  text-shadow: -2px 2px black;
+}
 
 @media screen and (max-width: 575px) {
+  .bg-home {
+    display: none;
+  }
+}
+@media screen and (max-width: 820px) {
   .bg-home {
     display: none;
   }
@@ -432,6 +456,14 @@ body {
   background-color: #606d47;
 }
 
+@media screen and (max-width: 575px) {
+  .carrito .cabecera th:nth-child(1) {
+    display: none;
+  }
+  tr td:nth-child(1) {
+    display: none;
+  }
+}
 .footer {
   background-color: #606d47;
   color: white;
